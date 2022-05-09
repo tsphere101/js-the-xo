@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+td {
+    width: 100px;
+    height: 100px;
+}
+table {
+    margin: 5px auto;
+}
+.vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.symbol {
+    cursor: context-menu;
+    font-size: 70px;
+    text-align: center;
+    animation: animate 0.7s;
+}
+
+.scoreboard {
+    font-size: 70px;
+    text-align: center;
+}
+
+.restart-btn {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.pd-10 {
+    padding: 10px
+}
+
+.mg-auto {
+    max-width: 100px;
+    margin: auto;
+}
+
+@keyframes animate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

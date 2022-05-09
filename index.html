@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link rel="stylesheet" href="css/tictactoe.css" />
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <div id="score" style="min-height:50px;" class="scoreboard"></div>
+        <div style="min-height: 200px">
+            <h3>Current Player :</h3>
+            <div id="current-player" class="symbol" style="font-size:50px"></div>
+        </div>
+        <table id="tictactoe">
+            <tr>
+                <td></td>
+                <td class="vert"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="hori"></td>
+                <td class="vert hori"></td>
+                <td class="hori"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="vert"></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <div id="restart-btn-div" class="mg-auto text-center pd-10"></div>
+        <div id="endgame"></div>
+
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
